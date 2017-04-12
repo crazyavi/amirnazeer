@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="images/favicon.png">
+	<title>Amir</title>
+	<link href="https://fonts.googleapis.com/css?family=New+Rocker|Open+Sans+Condensed:300" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/responsive.css" />
+</head>
+
+<body>
+	<!-- HOME section -->
+	<section class="main" id="home">
+        <!--Navbar -->
+		<nav class="" id="nav">
+			<div class="nav-sign" onclick="shown()">
+				<span class="standard"></span>
+			</div>
+			<div class="menu">
+				<ul class="menu-items">
+					<li class="menu-item  "><a href="#" onclick="return false ;" onmousedown="initScroll('home');">Home</a></li>
+					<li class="menu-item "><a href="#" onclick="return false ;" onmousedown="initScroll('about');">About</a></li>
+					<li class="menu-item"><a href="#" onclick="return false ;" onmousedown="initScroll('education');">Eductaion</a></li>
+					<li class="menu-item" id="s2">
+						<a href="#" onclick="return false ;" onmousedown="initScroll('projects');">Projects</a></li>
+					<li class="menu-item"><a href="#" onclick="return false ;" onmousedown="initScroll('contact');">Contact</a></li>
+				</ul>
+
+				<ul class="contact-items">
+					<li class="menu-item"><span></span><a href="#">Facebook</a></li>
+					<li class="menu-item"><span></span><a href="#">Instagram</a></li>
+					<li class="menu-item"><span></span><a href="#">Twitter</a></li>
+				</ul>
+			</div>
+		</nav>
+        <!--SKY STARS CANVAS-->
+		<canvas id="canvas" width="1500" height="900"></canvas>
+        <!--Intro sentences -->
+		<div class="intro" id="myInrto">
+			<p>Mech. Eng.</p>
+			<h1><span>A</span>mir <span>N</span>azeer</h1>
+			<p>The man who builds machines</p>
+			<div class="ani">
+				<span>Creative &amp; Professional</span>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</section>
+	<!-- ABOUT section -->
+	<section class="about" id="about">
+		<h2>About Me</h2>
+		<div class="pic">
+			<div class="img-container">
+				<img src="images/me.jpg" alt="me">
+			</div>
+		</div>
+		<div class="Who">
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sollicitudin, nunc interdum finibus volutpat, nibh eros lacinia odio, vitae consequat risus odio sed risus. Nulla leo urna, posuere a eros ut, tincidunt mattis ligula. Nam consequat euismod
+				nisi, vel aliquam mi sodales non. Nulla facilisi. Fusce at feugiat massa, a efficitur elit. Nam viverra vehicula neque venenatis dictum. Praesent mattis mi eget turpis condimentum, non viverra dui mattis. Vivamus ipsum mauris, commodo nec scelerisque
+				in, dapi</p>
+		</div>
+		<div class="clear"></div>
+	</section>
+	<!-- EDUCATION section -->
+	<section class="education" id="education">
+		<div class="overlay"></div>
+		<h2>Eduction</h2>
+		<div class="edu-courses University">
+			<h3>Zag. University graduate</h3>
+			<p>Mechanical engineering bechelor certificate with several university courses as follows:</p>
+			<ul>
+				<li>Clashic Mechanics </li>
+				<li>Thermodynamic</li>
+				<li>Fluids</li>
+				<li>Machines</li>
+				<li>intro to programming</li>
+				<li>maths</li>
+				<li>physics</li>
+				<li>Mechanial drawing</li>
+
+			</ul>
+
+		</div>
+		<div class=" edu-courses moocs">
+			<h3>MOOKS</h3>
+			<p>Trying to cope with our worlds fast growing engineering sciences,I took courses at :</p>
+			<ul>
+				<li>Robotics </li>
+				<li>3d Printing</li>
+				<li>bla bla bla</li>
+
+			</ul>
+		</div>
+		<div class=" edu-courses self">
+			<h3>SELF Studies</h3>
+			<p>I've read much info about :</p>
+			<ul>
+				<li>Robotics </li>
+				<li>3d Printing</li>
+				<li>bla bla bla</li>
+
+			</ul>
+		</div>
+
+		<div class="clear"></div>
+	</section>
+	<!-- PROJECTS section -->
+	<section class="projects" id="projects">
+		<h2>Projects</h2>
+		<div class="proj-ect">
+			<div class="project-pic">
+				<img src="images/edu.jpg" alt="gh">
+			</div>
+			<div class="project-info">
+				<h3>Printer</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sollicitudin, nunc interdum finibus volutpat, nibh eros lacinia odio, vitae consequat risus odio sed risus. Nulla leo urna, posuere a eros ut, tincidunt mattis ligula. Nam consequat euismod
+					nisi, vel aliquam mi sodales non. Nulla facilisi. Fusce at feugiat massa, a efficitur elit. Nam viverra vehicula neque venenatis dictum. Praesent mattis mi eget turpis condimentum, non viverra dui mattis. Vivamus ipsum mauris, commodo nec scelerisque
+					in, dapi</p>
+				<div class="arrow-container" onclick="appear()">
+					<div class="curvedarrow"></div>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+        <!-- Full project details modal -->
+		<div class="project-full" id="project-full">
+			<div class="close" onclick="cloe()">
+				<span></span>
+			</div>
+			<div class="pic">
+				<img src="images/edu.jpg" alt="project">
+			</div>
+			<div class="details">
+
+				<h3>Printer details</h3>
+				<h4>Idea and tools</h4>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sollicitudin, nunc interdum finibus volutpat, nibh eros lacinia odio, vitae consequat risus odio sed risus. Nulla leo urna, posuere a eros ut, tincidunt mattis ligula. Nam consequat euismod
+					nisi, vel aliquam mi sodales non. Nulla facilisi. Fusce at feugiat massa, a efficitur elit. Nam viverra vehicula neque venenatis dictum. Praesent mattis mi eget turpis condimentum, non viverra dui mattis. Vivamus ipsum mauris, commodo nec scelerisque
+					in, dapi</p>
+				<h4>description:</h4>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sollicitudin, nunc interdum finibus volutpat, nibh eros lacinia odio, vitae consequat risus odio sed risus. Nulla leo urna, posuere a eros ut, tincidunt mattis ligula. Nam consequat euismod
+					nisi, vel aliquam mi sodales non. Nulla facilisi. Fusce at feugiat massa, a efficitur elit. Nam viverra vehicula neque venenatis dictum. Praesent mattis mi eget turpis condimentum, non viverra dui mattis. Vivamus ipsum mauris, commodo nec scelerisque
+					in, dapi</p>
+				<div class="details-gellery">
+					<div class="details-pic">
+						<img src="images/edu.jpg" alt="">
+					</div>
+					<div class="details-pic">
+						<img src="images/edu.jpg" alt="">
+					</div>
+					<div class="details-pic">
+						<img src="images/edu.jpg" alt="">
+					</div>
+					<div class="details-pic">
+						<img src="images/edu.jpg" alt="">
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!--2nd-->
+		<div class="proj-ect1">
+			<div class="project-pic">
+				<img src="images/edu.jpg" alt="gh">
+			</div>
+			<div class="project-info">
+				<h3>Printer</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sollicitudin, nunc interdum finibus volutpat, nibh eros lacinia odio, vitae consequat risus odio sed risus. Nulla leo urna, posuere a eros ut, tincidunt mattis ligula. Nam consequat euismod
+					nisi, vel aliquam mi sodales non. Nulla facilisi. Fusce at feugiat massa, a efficitur elit. Nam viverra vehicula neque venenatis dictum. Praesent mattis mi eget turpis condimentum, non viverra dui mattis. Vivamus ipsum mauris, commodo nec scelerisque
+					in, dapi</p>
+				<div class="arrow-container" onclick="appear1()">
+					<div class="curvedarrow"></div>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="project-full1" id="project-full1">
+			<div class="close" onclick="cloe1()">
+				<span></span>
+			</div>
+			<div class="pic">
+				<img src="images/monkey.jpg" alt="project">
+			</div>
+			<div class="details">
+
+				<h3>Printer details</h3>
+				<h4>Idea and tools</h4>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sollicitudin, nunc interdum finibus volutpat, nibh eros lacinia odio, vitae consequat risus odio sed risus. Nulla leo urna, posuere a eros ut, tincidunt mattis ligula. Nam consequat euismod
+					nisi, vel aliquam mi sodales non. Nulla facilisi. Fusce at feugiat massa, a efficitur elit. Nam viverra vehicula neque venenatis dictum. Praesent mattis mi eget turpis condimentum, non viverra dui mattis. Vivamus ipsum mauris, commodo nec scelerisque
+					in, dapi</p>
+				<h4>description:</h4>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sollicitudin, nunc interdum finibus volutpat, nibh eros lacinia odio, vitae consequat risus odio sed risus. Nulla leo urna, posuere a eros ut, tincidunt mattis ligula. Nam consequat euismod
+					nisi, vel aliquam mi sodales non. Nulla facilisi. Fusce at feugiat massa, a efficitur elit. Nam viverra vehicula neque venenatis dictum. Praesent mattis mi eget turpis condimentum, non viverra dui mattis. Vivamus ipsum mauris, commodo nec scelerisque
+					in, dapi</p>
+				<div class="details-gellery">
+					<div class="details-pic">
+						<img src="images/edu.jpg" alt="">
+					</div>
+					<div class="details-pic">
+						<img src="images/edu.jpg" alt="">
+					</div>
+					<div class="details-pic">
+						<img src="images/edu.jpg" alt="">
+					</div>
+					<div class="details-pic">
+						<img src="images/edu.jpg" alt="">
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<!-- Contat section -->
+	<section class="contact" id="contact">
+		<hr>
+		<h2>SAY HELLO :&#41;</h2>
+		<hr>
+		<ul class="contact-info">
+			<li>Amir Nazzer</li>
+			<li>Zagazig,Sharkia.Egypt</li>
+			<li>01234567899</li>
+			<li>xyz@gmail.com</li>
+		</ul>
+
+		<ul class="social-contact">
+			<li>
+				<a href="#">
+					<span>
+                            <img src="images/facebook.png"alt="">
+                    </span> 
+                    Facebook
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span><img src="images/twitter.png"alt="">
+                    </span>
+                    Twitter
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span><img src="images/instagram.png"alt="">
+                    </span> 
+                    Instagram
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span><img src="images/linkedin.png"alt="">
+                    </span> 
+                    LinkedIn
+				</a>
+			</li>
+		</ul>
+		<div class="clear"></div>
+	</section>
+    <!--FOOTER -->
+	<footer>
+		<p>Made by Eslaam under MR-Prince instructions.</p>
+	</footer>
+	<script src="js/funcs.js"></script>
+
+</body>
+
+</html>

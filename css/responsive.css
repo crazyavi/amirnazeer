@@ -1,0 +1,494 @@
+
+
+@media screen and (min-width:1024px) {
+	section nav {
+		-webkit-transform: translate(-82%);
+		-ms-transform: translate(-82%);
+		transform: translate(-82%);
+		width: 30%;
+		padding: 2% 20px;
+		min-width: 120px;
+	}
+	section nav .menu ul li {
+		-webkit-transform: translate(-300px);
+		-ms-transform: translate(-300px);
+		transform: translate(-300px);
+	}
+	section nav .nav-sign {
+		left: 110%
+	}
+	section nav .menu ul.contact-items {
+		margin-top: 90px
+	}
+	section.main .intro {
+		margin-top: 15%;
+		width: 57%;
+		margin-left: 3%;
+	}
+	section.main .intro p {
+		font-size: 1.2em;
+	}
+	section.main .intro h1 {
+		font-size: 3.5em;
+	}
+	section.about .pic {
+		width: 40%;
+	}
+	section.about .Who {
+		width: 40%;
+		font-size: 1.3em;
+		letter-spacing: 1px;
+		line-height: 1.3
+	}
+	section.about .pic .img-container {
+		margin: 50px 0 30px 30%;
+	}
+	section.education .edu-courses {
+		margin: 30px 15%;
+		width: 40%;
+	}
+	section.education .moocs {
+		float: right;
+	}
+	section.projects .proj-ect .project-pic {
+		width: 30%;
+		margin-left: 10%;
+		float: left
+	}
+	section.projects .proj-ect1 .project-pic {
+		width: 30%;
+		float: right
+	}
+	section.projects .proj-ect .project-info {
+		width: 40%;
+		float: right;
+		-webkit-transform: skewX(10deg);
+		-ms-transform: skewX(10deg);
+		transform: skewX(10deg);
+		padding: 50px
+	}
+	section.projects .proj-ect1 .project-info {
+		width: 30%;
+		margin-left: 10%;
+		float: left;
+		-webkit-transform: skewX(-10deg);
+		-ms-transform: skewX(-10deg);
+		transform: skewX(-10deg);
+		padding: 50px
+	}
+	section.projects .proj-ect .project-info * {
+		-webkit-transform: skewX(-10deg);
+		-ms-transform: skewX(-10deg);
+		transform: skewX(-10deg);
+		line-height: 1.5;
+		letter-spacing: 1px
+	}
+	section.projects .proj-ect1 .project-info * {
+		-webkit-transform: skewX(10deg);
+		-ms-transform: skewX(10deg);
+		transform: skewX(10deg);
+		line-height: 1.5;
+		letter-spacing: 1px
+	}
+	section.projects .project-full .pic,
+	section.projects .project-full1 .pic {
+		width: 40%;
+		;
+		margin-top: 100px
+	}
+	section.projects .project-full .details,
+	section.projects .project-full1 .details {
+		width: 50%;
+	}
+	section.contact hr {
+		width: 15%;
+		float: left;
+		margin-bottom: 30px
+	}
+	section.contact hr:nth-of-type(1) {
+		margin-left: 20%
+	}
+	section.contact h2 {
+		width: 20%;
+	}
+	section.contact .contact-info {
+		width: 30%;
+		padding-left: 20%;
+	}
+	section.contact .social-contact {
+		width: 40%;
+		float: right;
+	}
+}
+
+
+/*medium*/
+
+@media screen and (min-width:640px)and (max-width:1023px) {
+	section nav {
+		-webkit-transform: translate(-82%);
+		-ms-transform: translate(-82%);
+		transform: translate(-82%);
+		width: 30%;
+		padding: 2% 20px;
+		min-width: 120px;
+	}
+	section nav .menu ul li {
+		-webkit-transform: translate(-300px);
+		-ms-transform: translate(-300px);
+		transform: translate(-300px);
+	}
+	section nav .nav-sign {
+		left: 110%
+	}
+	section nav .menu ul.contact-items {
+		margin-top: 90px
+	}
+	section.main .intro {
+		margin-top: 27%;
+		width: 57%;
+		margin-left: 3%;
+	}
+	section.main .intro p {
+		font-size: 1.2em;
+	}
+	section.main .intro h1 {
+		font-size: 2.5em;
+	}
+	section.about .pic {
+		width: 100%;
+	}
+	section.about .Who {
+		width: 80%;
+		font-size: 1.2em;
+		letter-spacing: 1px
+	}
+	section.about .pic .img-container {
+		margin: 30px auto;
+	}
+	section.education .edu-courses {
+		margin: 30px 15%;
+		width: 60%;
+	}
+	section.education .moocs {
+		float: right;
+	}
+	section.about .pic {
+		width: 40%;
+	}
+	section.about .who {
+		width: 40%;
+		font-size: 1.3em;
+		letter-spacing: 1px;
+		line-height: 1.3
+	}
+	section.about .pic .img-container {
+		margin: 50px 0 30px 30%;
+	}
+	section.education .edu-courses {
+		margin: 30px 15%;
+		width: 40%;
+	}
+	section.education .moocs {
+		float: right;
+	}
+	section.projects .proj-ect .project-pic {
+		width: 60%;
+		margin-left: 35%;
+		float: left
+	}
+	section.projects .proj-ect1 .project-pic {
+		width: 60%;
+		margin-left: 35%;
+		float: right
+	}
+	section.projects .proj-ect .project-info {
+		width: 50%;
+		margin-left: 15%;
+		float: left;
+		-webkit-transform: skewX(10deg);
+		-ms-transform: skewX(10deg);
+		transform: skewX(10deg);
+		padding: 50px
+	}
+	section.projects .proj-ect1 .project-info {
+		width: 50%;
+		margin-left: 15%;
+		float: left;
+		-webkit-transform: skewX(-10deg);
+		-ms-transform: skewX(-10deg);
+		transform: skewX(-10deg);
+		padding: 50px
+	}
+	section.projects .proj-ect .project-info * {
+		-webkit-transform: skewX(-10deg);
+		-ms-transform: skewX(-10deg);
+		transform: skewX(-10deg);
+		line-height: 1.5;
+		letter-spacing: 1px
+	}
+	section.projects .proj-ect1 .project-info * {
+		-webkit-transform: skewX(10deg);
+		-ms-transform: skewX(10deg);
+		transform: skewX(10deg);
+		line-height: 1.5;
+		letter-spacing: 1px
+	}
+	section.projects .project-full .pic,
+	section.projects .project-full1 .pic {
+		width: 40%;
+		;
+		margin-top: 100px
+	}
+	section.projects .project-full .details,
+	section.projects .project-full1 .details {
+		width: 50%;
+	}
+	section.contact hr {
+		width: 15%;
+		float: left;
+		margin-bottom: 30px
+	}
+	section.contact hr:nth-of-type(1) {
+		margin-left: 20%
+	}
+	section.contact h2 {
+		width: 20%;
+	}
+	section.contact .contact-info {
+		width: 30%;
+		padding-left: 20%;
+	}
+	section.contact .social-contact {
+		width: 40%;
+		float: right;
+	}
+}
+
+
+/*small*/
+
+@media screen and (min-width:321px) and (max-width:639px) {
+	section nav {
+		-webkit-transform: translate(-90%);
+		-ms-transform: translate(-90%);
+		transform: translate(-90%);
+		width: 70%;
+		padding: 2% 20px;
+		min-width: 120px;
+	}
+	section nav .menu ul li {
+		-webkit-transform: translate(-300px);
+		-ms-transform: translate(-300px);
+		transform: translate(-300px);
+	}
+	section nav .nav-sign {
+		left: 95%
+	}
+	section.main .intro {
+		margin-top: 50%;
+		width: 80%;
+		margin-left: 15%;
+	}
+	section.main .intro p {
+		font-size: 1.2em;
+	}
+	section.main .intro h1 {
+		font-size: 2em;
+	}
+	section.about .pic {
+		width: 100%;
+	}
+	section.about .Who {
+		width: 80%;
+        padding: 20px 10%;
+		font-size: .8em;
+		letter-spacing: .8px;
+        
+	}
+	section.about .pic .img-container {
+		margin: 30px auto;
+	}
+	section.education .edu-courses {
+		margin: 30px 10%;
+		width: 70%;
+	}
+	section.education .moocs {
+		float: left;
+	}
+	section.projects .proj-ect .project-pic ,
+	section.projects .proj-ect1 .project-pic {
+		width: 60%;
+		margin-left: 25%;
+		float: left
+	}
+	section.projects .proj-ect .project-info ,
+	section.projects .proj-ect1 .project-info {
+		width: 70%;
+		margin-left: 13%;
+		float: left;
+		margin-top: 5px;
+		padding: 30px;
+        
+	}
+    
+
+	section.projects .project-full .pic,
+	section.projects .project-full1 .pic {
+		width: 80%;
+		margin-top: 20px;
+		margin-left: 10%
+	}
+	section.projects .project-full .details,
+	section.projects .project-full1 .details {
+		width: 80%;
+	}
+	section.contact hr {
+		display: none
+	}
+	section.contact h2 {
+		width: 100%;
+	}
+	section.contact .contact-info {
+		width: 80%;
+		padding-left: 35%;
+	}
+	section.contact .social-contact {
+		width: 80%;
+		float: left;
+		padding-left: 35%
+	}
+}
+
+@media screen and (max-width:320px) {
+	section nav {
+		-webkit-transform: translate(-90%);
+		-ms-transform: translate(-90%);
+		transform: translate(-90%);
+		width: 70%;
+		padding: 2% 20px;
+		min-width: 120px;
+	}
+	section nav .menu ul li {
+		-webkit-transform: translate(-300px);
+		-ms-transform: translate(-300px);
+		transform: translate(-300px);
+	}
+	section nav .nav-sign {
+		left: 95%
+	}
+	section.main .intro {
+		margin-top: 50%;
+		width: 90%;
+		margin-left: 5%;
+	}
+	section.main .intro p {
+		font-size: 1.2em;
+	}
+	section.main .intro h1 {
+		font-size: 2em;
+	}
+	section.about .pic {
+		width: 100%;
+	}
+	section.about .Who {
+		width: 80%;
+        margin-left: 15%;
+		font-size: .9em;
+		line-height: 1.2
+	}
+	section.about .pic .img-container {
+		margin: 30px auto;
+	}
+	section.education .edu-courses {
+		margin: 30px 8%;
+		width: 70%;
+	}
+	section.education .moocs {
+		float: left;
+	}
+	section.projects .proj-ect .project-pic {
+		width: 60%;
+		margin-left: 10%;
+		float: left
+	}
+	section.projects .proj-ect1 .project-pic {
+		width: 60%;
+		margin-left: 10%;
+		float: left
+	}
+	section.projects .proj-ect .project-info {
+		width: 80%;
+		margin-left: 1%;
+		float: left;
+		padding: 30px
+	}
+	section.projects .proj-ect1 .project-info {
+		width: 80%;
+		margin-left: 1%;
+		float: left;
+		padding: 30px
+	}
+	section.projects .proj-ect .project-info * {
+		line-height: 1.3;
+	}
+	section.projects .proj-ect1 .project-info * {
+		line-height: 1.3;
+	}
+	section.projects .project-full .pic,
+	section.projects .project-full1 .pic {
+		width: 80%;
+		margin-top: 20px;
+		margin-left: 10%
+	}
+	section.projects .project-full .details,
+	section.projects .project-full1 .details {
+		width: 80%;
+	}
+	section.contact hr {
+		display: none
+	}
+	section.contact .contact-info {
+		width: 80%;
+		padding-left: 20%;
+	}
+	section.contact .social-contact {
+		width: 80%;
+		float: left;
+		padding-left: 20%
+	}
+	section.contact h2 {
+		width: 100%;
+	}
+}
+/*height fixes for navbar*/
+@media screen and (max-height:320px) {
+	section nav .menu ul.menu-items {
+		margin-top: 20px
+	}
+	section nav .menu ul.menu-items li {
+		margin: 8px;
+		font-size: .7em
+	}
+	section nav .menu ul.contact-items {
+		display: none
+	}
+}
+
+@media screen and (max-height:480px) and (min-height:320px) {
+	section nav .menu ul.contact-items {
+		display: none
+	}
+	section nav .menu ul.menu-items {
+		margin-top: 50px
+	}
+}
+
+@media screen and (min-height:480px) {
+	section nav .menu ul.menu-items {
+		margin-top: 90px
+	}
+	section nav .menu ul.contact-items {
+		margin-top: 60px
+	}
+}
