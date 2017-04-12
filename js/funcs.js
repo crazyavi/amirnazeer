@@ -72,6 +72,7 @@ function appear1() {
 /*smooth scrolling for sections*/
 
 function initScroll(sectionId) {
+	 document.getElementById('nav').classList.remove('show');
 	var target = document.getElementById(sectionId).offsetTop;
 	var currentOffset = window.pageYOffset;
 	var pos = currentOffset + window.innerHeight;
