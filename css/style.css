@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 }
-
+section{width:100vw;overflow-x:hidden}
 /*     Main Section                 */
 
 section.main {
@@ -373,7 +373,7 @@ section.main .intro .ani span {
 
 section.about {
 	color: #FFF;
-	padding: 50px 5px;
+	padding-top: 50px ;
 	background-color: #000
 }
 
@@ -484,7 +484,7 @@ section.education .self {
 
 section.projects {
 	background-color: #000;
-	padding: 50px 5%;
+	padding-top: 50px ;
 }
 
 section.projects h2 {
