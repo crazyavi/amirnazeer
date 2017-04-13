@@ -1,8 +1,9 @@
 body {
 	margin: 0;
-	overflow-x:hidden;
+    width: 100vw;
+    overflow-x: hidden
 }
-section{width:100vw;overflow-x:hidden}
+section {width: 100vw ; overflow-x: hidden}
 /*     Main Section                 */
 
 section.main {
@@ -52,7 +53,7 @@ section nav .nav-sign span {
 	background-color: #FFF;
 	border-radius: 1px;
 	position: relative;
-	margin-top: 20px
+	margin-top: 50px
 }
 
 section nav .nav-sign span.standard:after {
@@ -374,7 +375,7 @@ section.main .intro .ani span {
 
 section.about {
 	color: #FFF;
-	padding-top: 50px ;
+	padding: 50px 0 ;
 	background-color: #000
 }
 
@@ -496,8 +497,9 @@ section.projects h2 {
 
 section.projects .proj-ect,
 section.projects .proj-ect1 {
-	width: 90%;
-	padding-top: 40px
+	width: 85%;
+	padding-top:5% ;
+    
 }
 
 section.projects .proj-ect .project-pic img,
