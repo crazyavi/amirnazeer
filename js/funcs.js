@@ -73,9 +73,9 @@ function appear1() {
 /*smooth scrolling for sections*/
 
 function initScroll(sectionId) {
-	 document.getElementById('nav').classList.toggle('show');
-	 document.getElementById('myInrto').classList.toggle('hidden');
-    	document.querySelector("nav .nav-sign span").classList.toggle("reversed");
+	 document.getElementById('nav').classList.remove('show');
+	document.getElementById('myInrto').classList.remove('hidden');
+	document.querySelector("nav .nav-sign span").classList.remove("reversed");
 	var target = document.getElementById(sectionId).offsetTop;
 	var currentOffset = window.pageYOffset;
 	var pos = currentOffset + window.innerHeight;
