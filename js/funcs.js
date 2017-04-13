@@ -30,19 +30,7 @@ function shown() {
 	for (var j = 0; j < 8; j++) {
 		menuItem[j].classList.add("get");
 	}
-    /* disply none for intro whole small screen */
-	if (document.documentElement.clientWidth <= 480) {
-
-		var intro = document.getElementById('myInrto');
-		intro.classList.toggle('hidden');
-		/*
-    if (intro.style.display === 'none') {
-        intro.style.display = 'block';
-    } else {
-        intro.style.display = 'none';
-    }
-*/
-	}
+ 
 
 }
 /*close and appear button functionality  "full project modal"*/
