@@ -30,6 +30,19 @@ function shown() {
 	for (var j = 0; j < 8; j++) {
 		menuItem[j].classList.add("get");
 	}
+	    /* disply none for intro whole small screen */
+	if (document.documentElement.clientWidth <= 480) {
+
+		var intro = document.getElementById('myInrto');
+		intro.classList.toggle('hidden');
+		/*
+    if (intro.style.display === 'none') {
+        intro.style.display = 'block';
+    } else {
+        intro.style.display = 'none';
+    }
+*/
+	}
  
 
 }
@@ -61,6 +74,8 @@ function appear1() {
 
 function initScroll(sectionId) {
 	 document.getElementById('nav').classList.remove('show');
+	 document.getElementById('myInrto').classList.remove('hidden');
+    	document.querySelector("nav .nav-sign span").classList.remove("reversed");
 	var target = document.getElementById(sectionId).offsetTop;
 	var currentOffset = window.pageYOffset;
 	var pos = currentOffset + window.innerHeight;
