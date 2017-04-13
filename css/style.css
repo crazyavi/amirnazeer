@@ -43,7 +43,8 @@ section nav .nav-sign {
 	height: 50px;
 	cursor: pointer;
 	position: absolute;
-	background-color: #000
+	background-color: #000;
+	margin-top: 50px
 }
 
 section nav .nav-sign span {
@@ -53,7 +54,6 @@ section nav .nav-sign span {
 	background-color: #FFF;
 	border-radius: 1px;
 	position: relative;
-	margin-top: 50px
 }
 
 section nav .nav-sign span.standard:after {
