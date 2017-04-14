@@ -18,19 +18,20 @@ for (var i = 0; i <= 110; i++) {
 
 	ctx.fill();
 	ctx.closePath();
-	console.log(x + "nnnnn" + y);
+	
 }
-/*Togging nav bar menu */
-
+/*Toggling nav bar menu */
+var menuItem = document.getElementsByClassName("menu-item ");
 function shown() {
 	document.getElementById("nav").classList.toggle("show");
 	document.querySelector("nav .nav-sign span").classList.toggle("reversed");
     /*adding animation class to menu elements */
-	var menuItem = document.getElementsByClassName("menu-item ");
+	
 	for (var j = 0; j < 8; j++) {
 		menuItem[j].classList.add("get");
 	}
-	    /* disply none for intro whole small screen */
+    
+    /* disply none for intro whole small screen */
 	if (document.documentElement.clientWidth <= 480) {
 
 		var intro = document.getElementById('myInrto');
@@ -43,20 +44,19 @@ function shown() {
     }
 */
 	}
- 
 
 }
 /*close and appear button functionality  "full project modal"*/
 function cloe() {
 	var pro = document.getElementById("project-full");
 	pro.style.display = 'none';
-	console.log('654874870000000000000000000000');
+	
 }
 
 function appear() {
 	var pro = document.getElementById("project-full");
 	pro.style.display = 'block';
-	console.log('654874870000000000000000000000');
+	
 }
 
 function cloe1() {
@@ -73,9 +73,9 @@ function appear1() {
 /*smooth scrolling for sections*/
 
 function initScroll(sectionId) {
-	 document.getElementById('nav').classList.remove('show');
-	document.getElementById('myInrto').classList.remove('hidden');
-	document.querySelector("nav .nav-sign span").classList.remove("reversed");
+    document.getElementById('nav').classList.remove('show');
+     document.getElementById('myInrto').classList.remove('hidden');
+    document.querySelector("nav .nav-sign span").classList.remove("reversed");
 	var target = document.getElementById(sectionId).offsetTop;
 	var currentOffset = window.pageYOffset;
 	var pos = currentOffset + window.innerHeight;
