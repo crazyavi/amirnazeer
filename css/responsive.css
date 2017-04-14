@@ -2,9 +2,9 @@
 
 @media screen and (min-width:1024px) {
 	section nav {
-		-webkit-transform: translate(-82%);
-		-ms-transform: translate(-82%);
-		transform: translate(-82%);
+		-webkit-transform: translate(-92%);
+		-ms-transform: translate(-92%);
+		transform: translate(-92%);
 		width: 30%;
 		padding: 2% 20px;
 		min-width: 120px;
@@ -128,9 +128,9 @@
 
 @media screen and (min-width:640px)and (max-width:1023px) {
 	section nav {
-		-webkit-transform: translate(-82%);
-		-ms-transform: translate(-82%);
-		transform: translate(-82%);
+		-webkit-transform: translate(-92%);
+		-ms-transform: translate(-92%);
+		transform: translate(-92%);
 		width: 30%;
 		padding: 2% 20px;
 		min-width: 120px;
