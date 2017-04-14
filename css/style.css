@@ -43,7 +43,8 @@ section nav .nav-sign {
 	height: 50px;
 	cursor: pointer;
 	position: absolute;
-	margin-top: 50px
+	background-color: #000;
+    margin-top: 50px
 }
 
 section nav .nav-sign span {
@@ -53,6 +54,7 @@ section nav .nav-sign span {
 	background-color: #FFF;
 	border-radius: 1px;
 	position: relative;
+	
 }
 
 section nav .nav-sign span.standard:after {
@@ -279,7 +281,7 @@ section.main .intro p {
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 
-section.main .intro h1 {
+section.main .intro h2 {
 	font-family: 'New Rocker', cursive;
 	margin: 5px;
 }
@@ -506,8 +508,9 @@ section.projects .proj-ect1 .project-pic img {
 	width: 200px;
 	height: 200px;
 	border-radius: 5px;
-	margin-top: 50px
+	margin-top: 50px;
 }
+
 section.projects .proj-ect1 .project-info,
 section.projects .proj-ect .project-info {
 	color: #f7f7f7;
